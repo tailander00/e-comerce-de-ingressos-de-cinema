@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="estilo.css" />
+ </style>
+</head>
+<body>
+
+      <main>
+            <h2>Menu</h2>
+            <a href="cadastrar_filme.html"><button class = "menu">cadastro de filmes</button></a>
+    
+            <a href="index.php"><button class = "menu">venda de ingresso</button></a>
+    
+            <a href="cadastrar_cliente.html"><button class = "menu">cadastro de clientes</button></a>
+      </main><br>
+
+ <main>
+<h2>Cadastrar cliente</h2>
+ <form method="post" action="bancoDeDados.php">
+ <label>Nome:</label>
+ <input class="full" type="text" id="nome" name="nome"> <br>
+ <label>CPF:</label>
+ <input class="full" type="text" id="cpf" name="cpf"> <br>
+ <label >Idade:</label>
+ <input class="full" type="text" id="idade" name="idade"> <br>
+ <br><br>
+ <input type="submit" value="Cadastrar" class ="menu">
+ </form>
+ </main>
+</body>
+</html>
